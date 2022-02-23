@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+}
+
+header {
+    padding: 8px 16px;
+}
+
+.header {
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.food-icon {
+    width: 42px;
+    height: 42px;
+}
+
+.image-container {
+    border: 1px solid;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.food-image {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+}
+
+.food-recipe {
+    width: 90%;
+    margin: auto;
+}
+
+.info {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 15px;
+}
+
+form {
+    margin-top: 30px;
+
+}
+
+input {
+    display: block;
+    width: 60%;
+    margin: auto;
+    padding: 8px;color: black;
+    margin-top: 4px;
+    border: 1px solid;
+    border-radius: 15px;
+    outline: none;
+    border: 1px solid gray;
+}
+
+input:focus {
+    border: 1px solid blue;
+}
+
+.button {
+    background-color: white;
+}
+
+.button:hover {
+    background-color: skyblue;
+    border: 1px solid skyblue;
+}
+
+span {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 12px;
+}
